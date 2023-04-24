@@ -1,0 +1,38 @@
+body {
+    background-color: #f2f2f2; /* sau adăugați o imagine de fundal */
+    font-family: Courier, monospace;
+    padding: 0.5cm;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    color: blue;
+    text-align: center;
+}
+
+h3 {
+    font-family: Times, serif;
+    color: red;
+    text-align: left;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1em;
+    text-indent: 0.5cm;
+}
+
+ol {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+a {
+    color: blue;
+    background-color: #ffc107;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #ff5733;
+}

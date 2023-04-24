@@ -1,0 +1,33 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100px;
+    background-color: blue;
+}
+
+nav {
+    float: left;
+    width: 160px;
+    height: calc(100% - 160px);
+    background-color: yellow;
+}
+
+main {
+    margin-left: 160px;
+    margin-right: 0;
+    height: calc(100% - 160px);
+    background-color: green;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: gray;
+}
