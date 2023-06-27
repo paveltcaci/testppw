@@ -1,0 +1,107 @@
+body{
+    background-image: url("fondal.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100% ;
+}
+
+.orarmain{
+    padding-left: 50px;
+}
+.orarh1{
+    background-color: white;
+    padding: 20px 50px;
+    display: inline-block;
+}
+
+.button-row {
+    display: flex;
+
+}
+.green-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    transition: color 0.3s;
+    margin-right: 53px;
+}
+
+.green-button:hover {
+    color: black;
+    background-color: white;
+}
+
+.textsearch{
+    width: 337px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.white-block{
+    background-color: white;
+    width: 343px;
+    height: 130px;
+    margin-top: 20px;
+}
+.selectziua{
+    width: 343px;
+    height: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.selectsapt{
+    width: 343px;
+    height: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.selectsemestru{
+    width: 343px;
+    height: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.green-column {
+    background-color: green;
+    color: white;
+}
+th, td {
+    border: 1px solid black;
+    padding: 6px;
+    width: 30px;
+}
+.empty-cell {
+    background-color: white;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.allsite{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+.usarb{
+    display:flex;
+    height: 100px;
+    padding-top: 200px;
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+
+
+}
+.tabelorar1{
+    margin-top: -90px;
+
+}
+
+.empty-cell1 {
+    background-color: white;
+    width: 500px;
+}
