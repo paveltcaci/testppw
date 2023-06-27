@@ -89,7 +89,7 @@ table {
 .usarb{
     display:flex;
     height: 100px;
-    padding-top: 200px;
+    padding-top: 50px;
     font-size: 19px;
     font-weight: bold;
     color: white;
@@ -104,4 +104,13 @@ table {
 .empty-cell1 {
     background-color: white;
     width: 500px;
+    height: 50px;
+    text-align: center;
+}
+
+.green-column1 {
+    background-color: green;
+    color: white;
+    width: 70px;
+    text-align: center;
 }
